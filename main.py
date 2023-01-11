@@ -1,5 +1,5 @@
 from ticketbooking import ticketinfo
-
+# from <module-name> import <class-name>
 class Main:
     def execute(self,choice):
         if choice == 1:
@@ -9,9 +9,11 @@ class Main:
             print("*******Buy Ticket*******")
             movie_ticket_obj.buy_ticket()
         if choice == 3:
-            pass
+            print("*******statistics*******")
+            movie_ticket_obj.statistics()
         if choice == 4:
-            pass
+            print("*******User Detail*******")
+            movie_ticket_obj.user_info()
         if choice == 0:
             pass
             
